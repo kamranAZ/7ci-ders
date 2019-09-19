@@ -1,0 +1,61 @@
+/* table{
+    border-collapse: collapse;
+    margin: auto;
+}
+th,td{
+    padding: 15px;
+}
+thead{
+    background: maroon;
+    color: antiquewhite;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header START */
+#Header{
+    background: aqua;
+}
+.headerMiddle{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+#Header .menu ul li{
+    display: inline-block;
+    padding: 5px 15px;
+}
+#Header{
+    padding: 15px 0;
+}
+#Header .menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+/* Header END */
+#web{
+    height: 700px;
+    text-align: center;
+    color: white;
+    display: flex;align-items: center;
+    background-image: url(https://bootstrapmade.com/demo/themes/Alstar/img/intro/1.jpg)
+}
+#web p{
+    margin: 20px 0;
+    font-size: 14px;
+}
+#web button{
+    background: transparent;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
